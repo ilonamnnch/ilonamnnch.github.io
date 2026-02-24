@@ -183,44 +183,37 @@
              CV
         ========================== -->
         <article id="cv">
-          <h2 class="major">CV</h2>
+  <h2 class="major">CV</h2>
 
-          <!--
-            CV PDF SETUP:
-            1) Create folder: /assets/cv/
-            2) Upload your PDF as: /assets/cv/Ilona_Munnich_CV.pdf
-            3) When ready, the embedded viewer + download button will work.
+  <!-- Lien texte -->
+  <p>
+    <a href="Ilona_Munnich_CV.pdf" target="_blank" rel="noopener">
+      Download CV (PDF)
+    </a>
+  </p>
 
-            If your filename is different, update BOTH links below.
-          -->
+  <!-- Viewer intégré -->
+  <div style="width:100%; height:70vh; margin-top:1.5rem;">
+    <iframe
+      src="Ilona_Munnich_CV.pdf"
+      width="100%"
+      height="100%"
+      style="border:0;"
+    ></iframe>
+  </div>
 
-          <p>
-              <a href="Ilona_Munnich_CV.pdf" target="_blank">    
-               Download CV (PDF)
-              </a>
-          </p>
-
-          <!-- Embedded PDF viewer (like Daria) -->
-          <div style="width: 100%; height: 70vh; border: 1px solid rgba(255,255,255,0.15); border-radius: 6px; overflow: hidden;">
-            <iframe
-              src="assets/cv/Ilona_Munnich_CV.pdf#view=FitH"
-              style="width: 100%; height: 100%; border: 0;"
-              title="Ilona Munnich CV PDF Viewer">
-            </iframe>
-          </div>
-
-          <p style="margin-top: 1.25rem;">
-            <a href="assets/cv/Ilona_Munnich_CV.pdf" class="button primary icon solid fa-download" download>
-              Download CV (PDF)
-            </a>
-          </p>
-
-          <!-- Optional: add publications list later
-          <h3>Publications</h3>
-          <p>Coming soon.</p>
-          -->
-        </article>
-
+  <!-- Bouton blanc stylé -->
+  <ul class="actions" style="margin-top:2rem;">
+    <li>
+      <a href="Ilona_Munnich_CV.pdf"
+         class="button primary icon solid fa-download"
+         target="_blank"
+         rel="noopener">
+         Download CV (PDF)
+      </a>
+    </li>
+  </ul>
+</article>
         <!-- =========================
              CONTACT
         ========================== -->
@@ -297,6 +290,7 @@
     <script src="assets/js/main.js"></script>
   </body>
 </html>
+
 
 
 
