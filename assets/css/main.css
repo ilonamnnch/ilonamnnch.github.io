@@ -1447,7 +1447,7 @@ input, select, textarea {
 			}
 
 				#header .logo .icon:before {
-					font-size: 1.75rem;
+					font-size: 2.6rem;
 				}
 
 			#header .content .inner {
@@ -1659,3 +1659,4 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
